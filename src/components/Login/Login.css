@@ -19,6 +19,11 @@
   max-width: 20%;
 }
 
+.login-form-remember {
+  display: flex;
+  justify-content: space-between;
+}
+
 .login-form-button {
   width: 100%;
 }
