@@ -1,0 +1,11 @@
+.Main {
+  width: 80%;
+  padding: 20px;
+  background: white;
+}
+
+/* BUGFIX FOR STEPS */
+
+.ant-steps-item {
+  display: flex !important;
+}

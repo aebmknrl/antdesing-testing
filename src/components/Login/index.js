@@ -24,6 +24,7 @@ class Login extends Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         console.log('Received values of form: ', values);
+        this.props.onLoggedIn();
       }
     });
   }
@@ -32,7 +33,7 @@ class Login extends Component {
     return (
       <div className="Login">
         <div className="Login-pic">
-          <img src="https://cdn3.iconfinder.com/data/icons/internet-and-web-4/78/internt_web_technology-13-512.png" />
+          <img src="https://cdn3.iconfinder.com/data/icons/internet-and-web-4/78/internt_web_technology-13-512.png" alt="Login Img"/>
         </div>
         <Form onSubmit={this.handleSubmit} className="login-form">
           <FormItem>
