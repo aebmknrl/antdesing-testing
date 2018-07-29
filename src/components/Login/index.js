@@ -29,16 +29,6 @@ class Login extends Component {
   }
   render() {
     const { getFieldDecorator } = this.props.form;
-    const formItemLayout = {
-      labelCol: {
-        xs: { span: 24 },
-        sm: { span: 8 },
-      },
-      wrapperCol: {
-        xs: { span: 24 },
-        sm: { span: 16 },
-      },
-    };
     return (
       <div className="Login">
         <div className="Login-pic">
