@@ -1,0 +1,29 @@
+.Login {
+  width: 450px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px !important;
+}
+
+.Login-pic {
+  padding: 20px;
+}
+
+.Login-pic img {
+  max-width: 20%;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.ant-form-explain {
+  font-size: 0.8em;
+  text-align: left;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: lightgray !important;
+}
+
+body,
+html,
+#root {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
